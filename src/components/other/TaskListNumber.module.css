@@ -1,0 +1,15 @@
+.main_list{
+    height: 15vh;
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+}
+.task{
+    box-sizing: border-box;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}

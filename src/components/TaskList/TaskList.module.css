@@ -1,0 +1,20 @@
+.main_list{
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+    overflow-x: scroll;
+}
+.task{
+    padding: 30px;
+    flex-shrink: 0;
+    border-radius:10px ;
+    height: 70%;
+    width: 330px;
+    background-color: rgb(184, 60, 2)  ;
+}
+.main_list::-webkit-scrollbar{
+    display: none;
+}
