@@ -1,4 +1,4 @@
-import styles from './allTask.module.css';
+import styles from './AllTask.module.css';
 
 function AllTask({ employeeData }) {
     return (
